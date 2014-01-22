@@ -1,0 +1,80 @@
+body { background: #F0F0F0; padding-top: 35px; padding-bottom: 40px; }
+/* Text Styles */
+	.white {color: #FFFFFF;}
+	.gray {color: #333333;}
+	.gray2 {color: #555555;}
+	.blue {color: #67A7CD;}
+	.fs12 { font-size: 12px;}
+	.fs15 {font-size: 15px;}
+	.fs16 {font-size: 16px;}
+	.fs17 {font-size: 17px;}
+	.fs18 {font-size: 18px;}
+	.fs20 {font-size: 20px;}
+	.fs22 {font-size: 22px;}
+	.fs24 {font-size: 24px;}
+	.fs36 {font-size: 36px;}
+	.fs50 {font-size: 50px;}
+	.fs60 {font-size: 60px;}
+	.bold {font-weight: bold;}
+/* Text Styles */
+/* Background */
+	.bgblue {background: #67A7CD;}
+	.bgwhite {background: #FFFFFF;}
+	.panel-heading.bggray {background: #666666;}
+	.shadow {
+		-moz-box-shadow:    3px 3px 3px 3px #ccc;
+		-webkit-box-shadow: 3px 3px 3px 3px #ccc;
+		box-shadow:         3px 3px 3px 3px #ccc;
+	}
+	.border-rad {border-radius: 6px;}
+	.gradient-blue {}
+/* Background */
+/* Margins */
+	.mtop4 {margin-top: 4px;}
+	.mtop8 {margin-top: 8px;}
+	.mtop12 {margin-top: 12px;}
+	.mtop16 {margin-top: 16px;}
+	.mtop20 {margin-top: 20px;}
+	.mbottom4 {margin-bottom: 4px;}
+	.mbottom8 {margin-bottom: 8px;}
+	.mbottom12 {margin-bottom: 12px;}
+	.mbottom16 {margin-bottom: 16px;}
+	.mbottom24 {margin-bottom: 24px;}
+	.mleft0 { margin-left: 0px; }
+	.mleft4 {margin-left: 4px;}
+	.mleft8 {margin-left: 8px;}
+	.mleft12 {margin-left: 12px;}
+/* Margins */
+/* Padding */
+	.padding5 {padding: 5px;}
+	.padding10 {padding: 10px;}
+	.padding15 {padding: 15px;}
+/* Padding */
+/* Social buttons fade */
+	div.fadehover { position: relative; }
+	img.a { position: absolute; left: 0; top: 0; z-index: 10; }
+	img.b { position: absolute; left: 0; top: 0; }
+/* Social buttons fade */
+.hrblue { border-top: 1px solid #67A7CD; border-bottom: 1px solid #67A7CD; }
+.centered > img { margin-left: auto; margin-right: auto; display: block; }
+.centered img { margin-left: auto; margin-right: auto; display: block; }
+.borderb-2blue {border-bottom: 2px solid #67A7CD;}
+.border-1gray {border: 1px solid #555555;}
+.fixed-md { position: fixed; }
+
+.video-container {position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;}
+.video-container iframe,
+.video-container object,
+.video-container embed {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+
+.btn-group > .btn {font-size: 24px;}
+
+div.btn-group {margin: 0 auto; text-align: center; width: inherit; display: inline-block;}
+a {float: left;}
+
+@media (max-width: 767px) { 
+	body { padding-top: 0px; } 
+	.fixed-md { position: relative; }
+	.btn-group-justified > .btn {width: 55px;}
+}
+
